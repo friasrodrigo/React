@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 50vh; /* Altura igual al 50% del viewport */
+    width: 50vh; /* Ancho igual al 50% del viewport */
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: auto; /* Para centrar horizontalmente cuando el ancho es menor que el viewport */
+  }
+  
+
+p{
+    font-size: 2pc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 5pc;
+    height: 35px ;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button{
+    width: 4pc;
+    height: 50px;
+    font-size: 30px;
+    color: black;
+    border-radius: 8px;;
+    border-color: black;
+    margin: 10px;
+    cursor: pointer;
+}   
+
+btnContainer{
+    display: flex;
+  justify-content: center; /* Center the buttons within the container */
+}
+
+.btnContainer .add{
+    background-color: #007bff;
+}
+.btnContainer .rem{
+    background-color: #dc3545; 
+}

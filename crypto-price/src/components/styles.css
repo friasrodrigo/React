@@ -1,0 +1,59 @@
+.container {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Color de texto más suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+h2 {
+    font-size: 1.2rem; /* Tamaño de fuente reducido para un estilo minimalista */
+    margin-bottom: 10px;
+    font-weight: 400; /* Reducir la negrita para un estilo más ligero */
+}
+
+form {
+    width: 100%;
+    max-width: 370px; /* Asegura que el formulario no exceda los 370px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    width: calc(100% - 20px); /* ajuste para compensar el padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 200px; /* Limita el ancho máximo del botón si es necesario */
+    margin-top: 10px; /* Espacio entre el textarea y el botón */
+    padding: 10px 20px;
+    background-color: #007bff; /* Color azul original */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-sizing: border-box; /* Importante para incluir el padding en el ancho total */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
